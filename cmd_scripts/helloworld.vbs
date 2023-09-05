@@ -1,2 +1,2 @@
 Set objStdOut = WScript.StdOut
-objStdOut.Write "Hello World!"
+objStdOut.Write "Hello from the cmd folder!"
