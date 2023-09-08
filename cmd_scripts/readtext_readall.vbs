@@ -9,8 +9,4 @@ Set file = fso.OpenTextFile(WScript.Arguments.Item(0))
 
 objStdOut.Write file.ReadAll
 
-FOR EACH word IN file
-    objStdOut.Write word
-NEXT
-
 file.close

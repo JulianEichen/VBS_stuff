@@ -1,0 +1,1 @@
+WScript.Echo "Ab heute kann ich skripten!"
