@@ -5,9 +5,9 @@
 Option Explicit
 ' Deklaration der Variablen
 Dim FSO,Datei
-Const Dateiname=“Benutzerliste.csv“
+Const Dateiname="Benutzerliste.csv"
 'Erzeugen einer Objektreferenz
-Set FSO = CreateObject(“Scripting.FileSystemObject“)
+Set FSO = CreateObject("Scripting.FileSystemObject")
 'Erzeugen der Datei
 Set Datei = FSO.CreateTextFile(Dateiname)
 ' Schreiben der Spaltennamen
